@@ -1,0 +1,16 @@
+{
+    "workbench.statusBar.feedback.visible": false,
+    "scm.alwaysShowProviders": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+    "terminal.integrated.fontSize": 10,
+    "workbench.colorTheme": "Code Blue",
+    "editor.renderWhitespace": "all",
+    "workbench.activityBar.visible": false,
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": false,
+    "zenMode.centerLayout": false,
+    "editor.multiCursorModifier": "alt"
+}

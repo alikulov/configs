@@ -1,0 +1,35 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+space",
+        "command": "toggleSuggestionDetails",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "-toggleSuggestionDetails",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.toggleMaximizedPanel"
+    }
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    }
+]
